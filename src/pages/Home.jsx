@@ -1,11 +1,18 @@
 import React from "react";
 
 import AddNote from "../components/AddNote";
+import { Helmet } from 'react-helmet-async';
 const Home = () => {
   return (
-    <div className="md:w-full md:h-screen md:flex md:items-center md:justify-center shadow-md px-5">
+    <>
+     <Helmet>
+        <title>Home</title>
+      </Helmet>
+      <div className="md:w-full md:h-screen md:flex md:items-center md:justify-center shadow-md px-5">
       <AddNote />
     </div>
+    </>
+   
   );
 };
 

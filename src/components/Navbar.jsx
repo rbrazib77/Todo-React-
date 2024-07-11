@@ -12,7 +12,7 @@ const Navbar = () => {
           <div>
             <Link to="/">
               <span className="text-white text-xl md:text-4xl font-roboto font-bold">
-                /DoTo/
+                /ToDo/
               </span>
             </Link>
           </div>
