@@ -1,4 +1,3 @@
-import React from "react";
 
 import AddNote from "../components/AddNote";
 import { Helmet } from 'react-helmet-async';
